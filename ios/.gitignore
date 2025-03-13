@@ -1,0 +1,62 @@
+# Xcode
+# Build products and intermediates
+build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Xcode user state (per-developer settings)
+*.xcuserstate
+*.xcuserdatad/
+
+# Xcode temporary files
+*.moved-aside
+*.xccheckout
+*.hmap
+
+# Playgrounds
+*.playground/Timeline-*.xcplaygroundpage
+*.playground/timeline.xctimeline
+
+# Swift Package Manager
+# Ignore SPM build artifacts and caches
+.swiftpm/
+Packages/
+Package.resolved # Optional: Include if you want to lock versions
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock # Optional: Include if you want to lock versions
+
+# Dependency managers (general)
+vendor/
+Carthage/
+Rome/
+
+# macOS
+.DS_Store
+*.swp
+*~.nib
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local configuration files
+# Ignore local env files or secrets
+.env
+*.local
+Secrets.xcconfig
+
+# Archives and distributions
+*.ipa
+*.app.dSYM.zip
+*.dSYM
+
+# Miscellaneous
+# Ignore any user-specific or temp files
+*.orig
+*.rej
+*~
