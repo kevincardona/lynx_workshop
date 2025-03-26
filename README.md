@@ -10,6 +10,11 @@ This repo demonstrates ReactLynx's usage with the following:
 - custom native components (ios)
 - custom native modules (ios)
 
+## QR Code
+Scan this QR code to demo (note native elements wont work without modifying your Lynx Explorer):
+
+![QR Code](https://raw.githubusercontent.com/kevincardona/lynx_workshop/main/public/assets/qr-code.png)
+
 ## Getting Started
 
 First, install the dependencies:
