@@ -6,12 +6,21 @@
 import UIKit
 import CoreData
 import Lynx
+import FamilyControls
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Task {
+            do {
+                try await AuthorizationCenter.shared.requestAuthorization(for: .individual)
+                print("Screen Time authorized")
+            } catch {
+                print("Authorization failed: \(error)")
+            }
+        }
         LynxEnv.sharedInstance()
         return true
     }

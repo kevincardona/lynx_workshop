@@ -5,6 +5,7 @@ This is a test repo for experimenting with <a href="https://lynxjs.org/">ReactLy
 This repo demonstrates ReactLynx's usage with the following:
 
 - tailwind
+- supabase basic auth (still tweaking)
 - react-router
 - custom native components (ios)
 - custom native modules (ios)

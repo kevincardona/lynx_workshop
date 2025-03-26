@@ -26,6 +26,9 @@ export function App() {
           <text className="text-base" bindtap={() => nav('/scratchpad')}>
             view scratchpad
           </text>
+          <text className="text-base" bindtap={() => nav('/auth')}>
+            view auth example
+          </text>
         </view>
       </view>
     </view>

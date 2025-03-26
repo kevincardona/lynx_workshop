@@ -6,9 +6,14 @@
 # Dist
 node_modules
 node_modules/
-dist/
+dist/*
+!dist/main.lynx.bundle
 
 # IDE
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Environment Variables
+.env
+!.env.sample

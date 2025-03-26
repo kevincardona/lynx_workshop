@@ -7,6 +7,8 @@ export default function DatePicker() {
   const [date, setDate] = useState<string>("")
 
   const handleDateChange = (e: ReactLynx.XInputEvent) => {
+    console.log("NEW VALUE")
+    console.log(e)
     const newDate = e.detail.value;
     setDate(new Date(newDate).toISOString());
     console.log("Date changed to:", newDate);

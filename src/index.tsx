@@ -7,6 +7,7 @@ import Todo from './components/Todo.tsx';
 import Storage from './components/Storage.tsx';
 import Scratchpad from './components/Scratchpad.tsx';
 import DatePicker from './components/DatePicker.tsx';
+import Auth from './components/Auth.tsx';
 
 root.render(
   <MemoryRouter>
@@ -17,6 +18,7 @@ root.render(
       <Route path="/storage" element={<Storage />} />
       <Route path="/date-picker" element={<DatePicker />} />
       <Route path="/scratchpad" element={<Scratchpad />} />
+      <Route path="/auth" element={<Auth />} />
     </Routes>
   </MemoryRouter>,
 );

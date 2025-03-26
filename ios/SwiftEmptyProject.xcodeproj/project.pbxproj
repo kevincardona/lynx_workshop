@@ -23,10 +23,10 @@
 		704C27082D83757100376F6C /* Lynx-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C27072D83757100376F6C /* Lynx-Bridging-Header.m */; };
 		704C270A2D83759800376F6C /* DemoLynxProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C27092D83759800376F6C /* DemoLynxProvider.swift */; };
 		704C27172D83895D00376F6C /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 704C27162D83895D00376F6C /* Resource */; };
-		704C273C2D8391AC00376F6C /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C273A2D8391AC00376F6C /* UIHelper.m */; };
 		704C27572D83963200376F6C /* libLynx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704C27552D83963200376F6C /* libLynx.a */; };
 		704C27582D83963200376F6C /* libLynxService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704C27562D83963200376F6C /* libLynxService.a */; };
 		705071612D83E84600897780 /* LynxInitProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705071602D83E84600897780 /* LynxInitProcessor.swift */; };
+		705072952D84879600897780 /* main.lynx.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 705072942D84879600897780 /* main.lynx.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,28 +78,27 @@
 		2BA6CF722D6CC343001151C2 /* SwiftEmptyProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEmptyProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2BA6CF7F2D6CC39D001151C2 /* LynxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynxViewController.swift; sourceTree = "<group>"; };
 		5D87EFE3AA9CF967A7BDD3F2 /* Pods-SwiftEmptyProject-SwiftEmptyProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEmptyProject-SwiftEmptyProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftEmptyProject-SwiftEmptyProjectTests/Pods-SwiftEmptyProject-SwiftEmptyProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		7047D5112D8A684C00DF8687 /* SwiftEmptyProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftEmptyProject.entitlements; sourceTree = "<group>"; };
 		704C27062D83757100376F6C /* SwiftEmptyProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftEmptyProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		704C27072D83757100376F6C /* Lynx-Bridging-Header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Lynx-Bridging-Header.m"; sourceTree = "<group>"; };
 		704C27092D83759800376F6C /* DemoLynxProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLynxProvider.swift; sourceTree = "<group>"; };
 		704C270B2D837AF500376F6C /* libLynx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLynx.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C27162D83895D00376F6C /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
-		704C27392D8391AC00376F6C /* UIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
-		704C273A2D8391AC00376F6C /* UIHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
 		704C274E2D83960A00376F6C /* libLynx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLynx.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C274F2D83960A00376F6C /* libLynxService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLynxService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C27522D83962B00376F6C /* LynxResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = LynxResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C27552D83963200376F6C /* libLynx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLynx.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C27562D83963200376F6C /* libLynxService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLynxService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		705071602D83E84600897780 /* LynxInitProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynxInitProcessor.swift; sourceTree = "<group>"; };
+		705072942D84879600897780 /* main.lynx.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; name = main.lynx.bundle; path = ../dist/main.lynx.bundle; sourceTree = "<group>"; };
 		A8ACB8B564260780CC872074 /* libPods-SwiftEmptyProject-SwiftEmptyProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftEmptyProject-SwiftEmptyProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB843500A50256E5493D3ABF /* Pods-SwiftEmptyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEmptyProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftEmptyProject/Pods-SwiftEmptyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FAD7A542D132F29061101E77 /* Pods-SwiftEmptyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEmptyProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftEmptyProject/Pods-SwiftEmptyProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		704C27302D838DD900376F6C /* input */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = input; sourceTree = "<group>"; };
-		704C27432D83923C00376F6C /* date-picker */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "date-picker"; sourceTree = "<group>"; };
-		705071152D83E28900897780 /* module */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = module; sourceTree = "<group>"; };
+		7009812D2D94A727003E7CB7 /* lynx */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = lynx; sourceTree = "<group>"; };
+		700981372D94A75D003E7CB7 /* utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = utils; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +133,7 @@
 		2BA6CF402D6CC342001151C2 = {
 			isa = PBXGroup;
 			children = (
+				705072942D84879600897780 /* main.lynx.bundle */,
 				2BA6CF4B2D6CC342001151C2 /* SwiftEmptyProject */,
 				2BA6CF652D6CC343001151C2 /* SwiftEmptyProjectTests */,
 				2BA6CF6F2D6CC343001151C2 /* SwiftEmptyProjectUITests */,
@@ -156,10 +156,9 @@
 		2BA6CF4B2D6CC342001151C2 /* SwiftEmptyProject */ = {
 			isa = PBXGroup;
 			children = (
-				705071152D83E28900897780 /* module */,
-				704C27432D83923C00376F6C /* date-picker */,
-				704C273B2D8391AC00376F6C /* utils */,
-				704C27302D838DD900376F6C /* input */,
+				700981372D94A75D003E7CB7 /* utils */,
+				7009812D2D94A727003E7CB7 /* lynx */,
+				7047D5112D8A684C00DF8687 /* SwiftEmptyProject.entitlements */,
 				704C27162D83895D00376F6C /* Resource */,
 				2BA6CF4C2D6CC342001151C2 /* AppDelegate.swift */,
 				2BA6CF4E2D6CC342001151C2 /* SceneDelegate.swift */,
@@ -206,15 +205,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		704C273B2D8391AC00376F6C /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				704C27392D8391AC00376F6C /* UIHelper.h */,
-				704C273A2D8391AC00376F6C /* UIHelper.m */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		E82DF60104F0DC3772A650A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,9 +239,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				704C27302D838DD900376F6C /* input */,
-				704C27432D83923C00376F6C /* date-picker */,
-				705071152D83E28900897780 /* module */,
+				7009812D2D94A727003E7CB7 /* lynx */,
+				700981372D94A75D003E7CB7 /* utils */,
 			);
 			name = SwiftEmptyProject;
 			productName = SwiftEmptyProject;
@@ -345,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705072952D84879600897780 /* main.lynx.bundle in Resources */,
 				704C27172D83895D00376F6C /* Resource in Resources */,
 				2BA6CF5C2D6CC343001151C2 /* LaunchScreen.storyboard in Resources */,
 				2BA6CF592D6CC343001151C2 /* Assets.xcassets in Resources */,
@@ -462,7 +452,6 @@
 				705071612D83E84600897780 /* LynxInitProcessor.swift in Sources */,
 				2BA6CF4F2D6CC342001151C2 /* SceneDelegate.swift in Sources */,
 				704C27082D83757100376F6C /* Lynx-Bridging-Header.m in Sources */,
-				704C273C2D8391AC00376F6C /* UIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,12 +635,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftEmptyProject/SwiftEmptyProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UZA95NZ554;
+				DEVELOPMENT_TEAM = 46UPK9VLSD;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftEmptyProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lynx_workshop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -662,7 +653,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integrating-lynx.SwiftEmptyProject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevincardona.SwiftEmptyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftEmptyProject/SwiftEmptyProject-Bridging-Header.h";
@@ -679,12 +670,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftEmptyProject/SwiftEmptyProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UZA95NZ554;
+				DEVELOPMENT_TEAM = 46UPK9VLSD;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftEmptyProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lynx_workshop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -695,7 +688,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integrating-lynx.SwiftEmptyProject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevincardona.SwiftEmptyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftEmptyProject/SwiftEmptyProject-Bridging-Header.h";

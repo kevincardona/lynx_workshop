@@ -1,9 +1,3 @@
-//
-//  NativeLocalStorageModule.m
-//  SwiftEmptyProject
-//
-//  Created by Kevin Cardona on 3/13/25.
-//
 #import "NativeLocalStorageModule.h"
 
 @interface NativeLocalStorageModule()

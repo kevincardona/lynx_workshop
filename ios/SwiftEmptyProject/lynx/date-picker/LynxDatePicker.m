@@ -33,15 +33,13 @@ LYNX_PROP_SETTER("value", setDate, NSString *) {
 }
 
 - (void)datePickerDidChange:(UIDatePicker *)picker {
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss.SSSZ"];
-    [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
-    NSString *dateString = [formatter stringFromDate:picker.date];
+    NSTimeInterval timestamp = [picker.date timeIntervalSince1970] * 1000;
     [self emitEvent:@"input"
              detail:@{
-                 @"value": dateString ?: @""
+                 @"value": @(timestamp)
              }];
 }
+
 
 - (void)emitEvent:(NSString *)name detail:(NSDictionary *)detail {
   LynxCustomEvent *eventInfo = [[LynxDetailEvent alloc] initWithName:name

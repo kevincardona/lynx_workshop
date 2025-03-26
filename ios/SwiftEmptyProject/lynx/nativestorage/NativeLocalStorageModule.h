@@ -1,9 +1,11 @@
 //
 //  NativeLocalStorageModule.h
-//  SwiftEmptyProject
+//  curry
 //
-//  Created by Kevin Cardona on 3/13/25.
+//  Created by Kevin Cardona on 3/25/25.
 //
+
+
 #import <Foundation/Foundation.h>
 #import <Lynx/LynxModule.h>
 
